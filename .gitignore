@@ -1,0 +1,31 @@
+# Исключаем встроенный git репозиторий
+stable-diffusion-webui/.git/
+
+# Временные файлы
+*.log
+*.tmp
+*.temp
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Модели (они большие и не нужны в репозитории)
+stable-diffusion-webui/models/Stable-diffusion/*.safetensors
+stable-diffusion-webui/models/Stable-diffusion/*.ckpt
+stable-diffusion-webui/models/Stable-diffusion/*.pt
+
+# Кэш и временные файлы WebUI
+stable-diffusion-webui/outputs/
+stable-diffusion-webui/logs/
+stable-diffusion-webui/temp/ 
