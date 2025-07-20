@@ -28,4 +28,26 @@ stable-diffusion-webui/models/Stable-diffusion/*.pt
 # Кэш и временные файлы WebUI
 stable-diffusion-webui/outputs/
 stable-diffusion-webui/logs/
-stable-diffusion-webui/temp/ 
+stable-diffusion-webui/temp/
+
+# Исключаем большие папки WebUI
+stable-diffusion-webui/models/
+stable-diffusion-webui/outputs/
+stable-diffusion-webui/logs/
+stable-diffusion-webui/temp/
+stable-diffusion-webui/extensions/
+stable-diffusion-webui/repositories/
+stable-diffusion-webui/venv/
+stable-diffusion-webui/__pycache__/
+
+# Оставляем только основные файлы WebUI
+!stable-diffusion-webui/webui.py
+!stable-diffusion-webui/launch.py
+!stable-diffusion-webui/requirements.txt
+!stable-diffusion-webui/README.md
+!stable-diffusion-webui/LICENSE.txt
+!stable-diffusion-webui/modules/
+!stable-diffusion-webui/scripts/
+!stable-diffusion-webui/javascript/
+!stable-diffusion-webui/html/
+!stable-diffusion-webui/configs/ 
